@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*.container{
+    width: 800px;
+    height: 800px;
+    border :1px solid #000;   
+}
+
+.row{
+    height: 100px;
+    width: 800px;  
+}
+
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+   
+
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+}   */
+
+table td{
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: azure;
+}
