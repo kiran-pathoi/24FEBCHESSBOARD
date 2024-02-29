@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul > li {
+  /* border: 1px solid red; */
+  display: inline-block;
+  width: 200px;
+  height: 50px;
+}
+
+.homesubmenu {
+  display: none;
+  max-width: 300px;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+}
+
+.home:hover .homesubmenu {
+  display: block;
+}
+.home {
+  position: relative;
+}
+
+.aboutsubmenu {
+  display: none;
+  position: absolute;
+  top: 50px;
+  z-index: 1;
+}
+
+.about:hover .aboutsubmenu {
+  display: block;
+}
+.about {
+  position: relative;
+}
+
+.alfa {
+  position: relative;
+  border:1px solid blue;
+  max-width: 150px;
+  height: 50px;
+}
+.alfadrop {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  border:2px solid green;
+  max-width:150px;
+ left:150px
+}
+.alfa:hover .alfadrop {
+  display: block;
+}

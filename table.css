@@ -10,3 +10,10 @@ table, td,th{
     padding: 1rem;
 
 }
+caption:hover{
+    color:red;
+    }
+td:hover{
+    background-color: aqua;
+    color: blue;    
+}
