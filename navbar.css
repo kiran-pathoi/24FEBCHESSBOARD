@@ -43,7 +43,7 @@ ul > li {
   position: relative;
   border:1px solid blue;
   max-width: 150px;
-  height: 50px;
+  height: 50pxa;
 }
 .alfadrop {
   display: none;
